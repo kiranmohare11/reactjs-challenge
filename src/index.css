@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container{
+  margin-top: 5rem;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links-box {
+  display: flex;
+  flex-direction: column;
+}
+.home-links {
+  font-size: 2rem;
+}
+.userBox{
+  min-height: 150px;
+  background-color: rgb(248, 242, 242);
+  border-radius: 10px;
+  margin: 0.5rem 1rem;
+  padding: 1rem 1.2rem;
+}
+.basicDetails{flex: 1;}
+.address{flex: 1;}
+.companyDetails{flex: 1;}
+.phone{flex: 1;}
+.dataBox{display: flex;}
+.boldText{text-transform: capitalize;}
+.searchBox{
+  min-height: 20px;
+  padding: 1rem;
+}
+.searchLabel{font-size: 1rem; margin-right: 1rem;}
+#searchItem{
+  border: 2px solid;
+    border-radius: 5px;
+    min-height: 1.5rem;
+    min-width: 20rem;
+}
